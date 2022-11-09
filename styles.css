@@ -1,0 +1,96 @@
+*{margin:0;padding:0;}
+body{
+  font-family:helvetica;
+  background-color:rgb(50, 72, 103);
+  color:white;
+  font-size:18px;
+}
+h1, p{
+  text-align:center;
+}
+
+p+*{color:white;}
+
+form {
+margin:0 auto;
+width:60vw;
+padding-bottom:3em;
+}
+
+label{
+display:block;
+margin:0.5rem auto
+}
+input, textarea{
+  margin-top:0.2em;
+  font-size:1em;
+  color:white;
+  width:100%;
+  }
+
+
+[type="text"],[type="email"],[type="number"]{
+  border:none;
+  box-sizing:border-box;
+  padding:0px 0.3em;
+  line-height:2em;
+  border-radius:5px;
+  background-color:rgb(130, 140, 144);
+  }
+
+  textarea{
+  height:5em;
+  border:none;
+  box-sizing:border-box;
+  padding:0.3em 0.3em;
+  line-height:1em;
+  border-radius:5px;
+  background-color:rgb(130, 140, 144);
+  }
+  
+input::placeholder{color:rgb(196, 196, 196)}
+
+.inline{
+  background-color:rgb(130, 140, 144);
+  line-height:2em;
+  border-radius:5px;
+  }
+
+.inline *{
+  display:inline;
+  width:unset;
+  margin:0 0.4em 0 0.5em;
+  vertical-align:middle;
+  }
+
+  fieldset{border:none;width:60vw;
+  padding-bottom: 2em;}
+   
+  select{
+  border:none;
+  color:white;
+  background-color:rgb(19, 23, 40);
+  font-size:1em;
+  padding:0.5em 0.3em;
+  border-radius:5px;
+  }
+
+  input[type="submit"]{
+  margin:0 auto;
+  color:black;
+  width:100%;
+  background-color:rgba(188, 218, 236, 0.648);
+  line-height:2em;
+  border-radius:20px;
+  border:none;
+  font-weight:bold;
+  font-size:1.5em;
+  transition:background-color,color ease-in,ease-out 2s,1.5s;
+  }
+
+  input[type="submit"]:hover{
+    background-color:rgba(59, 82, 139, 0.86);
+    color:white;
+  }
+
+ 

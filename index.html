@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <h1 id="title"> Registration Form</h1>
+    <p id="description">HTML and CSS Project</p>
+    <form id="survey-form">
+      
+      <fieldset>
+<label id="name-label">Name: <input type="text" id="name" placeholder="Charles Milles" required/></label>
+<label id="email-label">E-mail: <input type="email" id="email" required placeholder="wayofthewolf@gmail.com"/></label>
+<label id="number-label">Age: <input type="number" id="number" name="num" pattern="[0-9]{1}[0-9]{1}" max="100" min="0" size="3" placeholder="0"/></label>
+</fieldset>
+
+<fieldset><p>Which one is the King of All?</p>
+<label class="inline"><input type="radio" name="choose" value="hotdog"/>Salad</label>
+<label class="inline"><input type="radio" name="choose" value="burger"/>Pizza</label>
+<label class="inline"><input type="radio" name="choose"value="steak"/>Traditional Steak</label>
+</fieldset> 
+
+<fieldset>
+<select id="dropdown">
+<option id="1">Do you believe your choice?</option>
+<option id="2">Hell Yeah</option>
+ <option id="3">Nah, my options were limited.</option>
+ <option id="4">I like burgers</option>
+ </select>
+ </fieldset>
+ 
+ <fieldset><p>Which is most important?</p>
+ <label class="inline"><input type="checkbox" name="love" value="love"/>Family</label>  
+ <label class="inline"><input type="checkbox" name="love" value="love1"/>Love</label>
+ <label class="inline"><input type="checkbox" name="love" value="love2"/>Money</label>
+ <label class="inline" value="love3"><input type="checkbox" value="love4"/>Purpose</label>
+ </fieldset>   
+ <fieldset>
+   <p>Write your thoughts, reflect. Are you satisfied?</p>
+   <textarea></textarea>
+   </fieldset>
+ <input id="submit" type="submit" value="Submit"/>
+  </form>
+    
+</body>
